@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarf_names)
   i = 0 
   while i < dwarf_names.length 
-    puts dwarf_names.index + dwarf name
+    puts dwarf_names.index + dwarf_name
     i += 1 
   end
 end
