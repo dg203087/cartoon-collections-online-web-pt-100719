@@ -1,5 +1,6 @@
 def roll_call_dwarves(dwarf_names)
   i = 0 
+  dwarf_name = dwarf_names.string 
   while i < dwarf_names.length 
     puts dwarf_names.index + dwarf_name
     i += 1 
