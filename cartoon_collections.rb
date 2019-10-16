@@ -1,9 +1,6 @@
 def roll_call_dwarves(dwarf_names)
-  i = 0 
-  dwarf_name = dwarf_names. 
-  while i < dwarf_names.length 
+ dwarf_names.collect do |dwarf_name|
     puts dwarf_names.index + dwarf_name
-    i += 1 
   end
 end
 
